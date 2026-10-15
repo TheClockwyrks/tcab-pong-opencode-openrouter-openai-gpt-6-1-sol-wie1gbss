@@ -1,0 +1,7 @@
+/* Preserve the host page's responsive CSS sizing when the runtime pins an
+   initially attribute-sized canvas. Backing-store sizing and fitting remain
+   entirely engine-owned. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
